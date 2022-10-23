@@ -1544,19 +1544,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1367933629}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2066767870}
-        m_TargetAssemblyTypeName: SM, Assembly-CSharp
-        m_MethodName: Load
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Character
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1367933629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2546,6 +2534,11 @@ MonoBehaviour:
   energy: 0
   energyBar: {fileID: 851575490}
   energyRechargeSpeed: 1
+  atkLVL: 0
+  defLVL: 0
+  spdLVL: 0
+  flyLVL: 0
+  levelCap: 50
 --- !u!1 &2095188962
 GameObject:
   m_ObjectHideFlags: 0
