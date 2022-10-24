@@ -14,7 +14,7 @@ public class ATKTraining : MonoBehaviour
     public GameObject target;
     public int score;
     public static ATKTraining instance;
-    private bool gameActive;
+    public bool gameActive;
     private int gameTime;
     public GameObject endScreen;
     public TextMeshProUGUI results;

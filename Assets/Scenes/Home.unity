@@ -916,17 +916,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &851575490 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2840242263119591398, guid: 3c2cd84652a79334bb20f94e1a9358d2, type: 3}
-  m_PrefabInstance: {fileID: 7621436638310954690}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &877511357
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,12 +2521,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 0
   energy: 0
-  energyBar: {fileID: 851575490}
+  energyBar: {fileID: 1853434355278518837, guid: 84f446c7657981141b7def088b625b46, type: 3}
   energyRechargeSpeed: 1
   atkLVL: 0
+  atkEXP: 0
   defLVL: 0
+  defEXP: 0
   spdLVL: 0
+  spdEXP: 0
   flyLVL: 0
+  flyEXP: 0
   levelCap: 50
 --- !u!1 &2095188962
 GameObject:

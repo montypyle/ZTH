@@ -28,7 +28,11 @@ public class TargetCtrl : MonoBehaviour
     IEnumerator Lifespan()
     {
         yield return new WaitForSeconds(targetlife);
-        ATKTraining.instance.missed++;
+        if (ATKTraining.instance.gameActive)
+        {
+            ATKTraining.instance.missed++;
+        }
         Destroy(targetObj);
     }
+
 }

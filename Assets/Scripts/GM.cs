@@ -46,8 +46,7 @@ public class GM : MonoBehaviour
     void Update()
     {
         energy = Mathf.Clamp(energy, 0, 100);
-        fillAmt = (float)energy/100;
-        energyBar.fillAmount = fillAmt;
+        energyBar.fillAmount = (float)energy / 100;
     }
     IEnumerator renewEnergy()
     {
