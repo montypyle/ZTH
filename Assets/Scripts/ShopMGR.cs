@@ -8,24 +8,22 @@ public class ShopMGR : MonoBehaviour
 {
     public static ShopMGR instance;
     public TextMeshProUGUI currentCash;
-    public int cash;
     public GameObject equipNow;
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-        cash = 50;
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentCash.text = "€" + cash;
+        currentCash.text = "€" + GM.instance.money;
     }
     private bool CheckPrice(GameObject toBuy)
     {
         toBuy.TryGetComponent<ShopItem>(out ShopItem script);
-        if (script.price <= cash)
+        if (script.price <= GM.instance.money)
         {
             return true;
         }
@@ -39,7 +37,7 @@ public class ShopMGR : MonoBehaviour
         if (CheckPrice(buy))
         {
             buy.TryGetComponent<ShopItem>(out ShopItem script);
-            cash = cash - script.price;
+            GM.instance.money = GM.instance.money - script.price;
 
         }
     }

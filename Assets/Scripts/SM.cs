@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SM : MonoBehaviour
 {
-    public static SM instance;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        instance = this;
+
+
     }
 
     // Update is called once per frame
@@ -21,5 +21,10 @@ public class SM : MonoBehaviour
     public void Load(string scenename)
     {
         SceneManager.LoadSceneAsync(scenename);
+    }
+
+    public void DebugLog(string debug)
+    {
+        Debug.Log(debug);
     }
 }

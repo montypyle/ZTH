@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 7621436638365160165}
   - component: {fileID: 7621436638365160164}
   - component: {fileID: 7621436638365160167}
-  - component: {fileID: 7621436638365160166}
+  - component: {fileID: 8547708060724581907}
   m_Layer: 5
   m_Name: SettingsCanvas
   m_TagString: Untagged
@@ -136,7 +136,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 3
   m_TargetDisplay: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7621436638365160166
+--- !u!114 &8547708060724581907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7621436638365160161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e78a531ab6258a4bbed45bde2ba8dac, type: 3}
+  m_Script: {fileID: 11500000, guid: f27493f2d1d3e58448e4ed63d45b5e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7621436638591989761
@@ -988,6 +988,10 @@ PrefabInstance:
     - target: {fileID: 1385236793188055207, guid: 84f446c7657981141b7def088b625b46, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853434355278518837, guid: 84f446c7657981141b7def088b625b46, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8755966570172713470, guid: 84f446c7657981141b7def088b625b46, type: 3}
       propertyPath: m_Name

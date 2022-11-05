@@ -14,10 +14,16 @@ public class StatMGR : MonoBehaviour
     public Slider defenseExp;
     public Slider speedExp;
     public Slider flightExp;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        attackExp.maxValue = GM.instance.levelCap;
+        defenseExp.maxValue = GM.instance.levelCap;
+        speedExp.maxValue = GM.instance.levelCap;
+        flightExp.maxValue = GM.instance.levelCap;
+
     }
 
     // Update is called once per frame
@@ -27,10 +33,9 @@ public class StatMGR : MonoBehaviour
         defenseLevel.text = "Level " + GM.instance.defLVL;
         speedLevel.text = "Level " + GM.instance.spdLVL;
         flightLevel.text = "Level " + GM.instance.flyLVL;
-        attackExp.value = GM.instance.atkEXP/GM.instance.levelCap;
-        defenseExp.value = GM.instance.defEXP/GM.instance.levelCap;
-        speedExp.value = GM.instance.spdEXP / GM.instance.levelCap;
-        flightExp.value = GM.instance.flyEXP / GM.instance.levelCap;
-
+        attackExp.value = GM.instance.atkEXP;
+        defenseExp.value = GM.instance.defEXP;
+        speedExp.value = GM.instance.spdEXP;
+        flightExp.value = GM.instance.flyEXP;
     }
 }

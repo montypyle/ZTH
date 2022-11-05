@@ -21,7 +21,7 @@ public class ShopItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (price > ShopMGR.instance.cash || bought || locked)
+        if (price > GM.instance.money || bought || locked)
         {
             buyButton.interactable = false;
         }

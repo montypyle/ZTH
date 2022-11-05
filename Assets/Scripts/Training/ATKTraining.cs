@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Analytics;
+
 
 public class ATKTraining : MonoBehaviour
 {
@@ -20,6 +22,7 @@ public class ATKTraining : MonoBehaviour
     public TextMeshProUGUI results;
     public int missed;
     private int finalMissed;
+    public bool trainingStarted;
     // Start is called before the first frame update
     void Start()
     { 
@@ -36,7 +39,7 @@ public class ATKTraining : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameTime <= 0)
+        if (gameTime == 0)
         {
             gameActive = false;
             StopCoroutine(StartTimer());
@@ -63,6 +66,7 @@ public class ATKTraining : MonoBehaviour
     }
     public void StartWrapper()
     {
+        trainingStarted = true;
         GM.instance.energy -= 30;
         score = 0;
         missed = 0;
@@ -100,10 +104,22 @@ public class ATKTraining : MonoBehaviour
 
     void EndGame()
     {
-        finalMissed = missed; //to prevent it from continuing to update with targets that despawn after the game ends
         endScreen.SetActive(true);
-        results.text = "your score was " + score + "\n you missed " + finalMissed + " targets";
+        results.text = "your score was " + score + "\n you missed " + missed + " targets";
         // TODO: calculate an overall score and record in gamedata as a high score
         // convert the overall score to a stat increase and pass to STATS
+        int exp = (score - missed);
+        if (trainingStarted)
+        {
+            GM.instance.IncreaseStat(exp, "attack");
+            Analytics.CustomEvent("attackTrainingComplete", new Dictionary<string, object>{
+                    { "hit", score },
+                    { "missed", missed },
+                    { "current level", GM.instance.atkLVL }
+                }
+            );
+        }
+    
+        trainingStarted = false;
     }
 }
