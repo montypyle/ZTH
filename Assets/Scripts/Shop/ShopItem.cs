@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.Services.Analytics;
 
 public class ShopItem : MonoBehaviour
 {
@@ -34,6 +35,8 @@ public class ShopItem : MonoBehaviour
     {
         bought = true;
         ShopMGR.instance.equipNow.SetActive(true);
+        AnalyticsService.Instance.CustomData("itemBought", new Dictionary<string, object>{
+                    { "itemName", this.gameObject.name } });
         //add item to inventory
     }
 }

@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class ShopMGR : MonoBehaviour
 {
     public static ShopMGR instance;
-    public TextMeshProUGUI currentCash;
     public GameObject equipNow;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +17,6 @@ public class ShopMGR : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentCash.text = "€" + GM.instance.money;
     }
     private bool CheckPrice(GameObject toBuy)
     {

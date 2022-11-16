@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Equipment
+  - Wall
+  - Hazard
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Base
+    uniqueID: 337216949
+    locked: 0
+  - name: Settings
+    uniqueID: 168042069
+    locked: 0
+  - name: Overlay
+    uniqueID: 2994810919
     locked: 0

@@ -7,13 +7,13 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 5bf49fc9403e4514280ea3042a0bc63d
-  - enabled: 1
-    path: Assets/Scenes/Character.unity
-    guid: 177545358f0d75c448cee07ead9b502f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Equip.unity
     guid: 8e74cfea68f255b429c6e30406e38b26
@@ -32,4 +32,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Train.unity
     guid: 900f0bbfac8cb144789ab61c3dd08713
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

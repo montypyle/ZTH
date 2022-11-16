@@ -29,6 +29,7 @@ public class ShieldCtrl : MonoBehaviour
     void Update()
     {
         DragAndDrop();
+        shieldPos.position = new Vector2(Mathf.Clamp(transform.position.x, -boundX, boundX), shieldPos.position.y);
     }
 
     void DragAndDrop()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.Analytics;
+using Unity.Services.Analytics;
 
 
 public class ATKTraining : MonoBehaviour
@@ -17,12 +17,12 @@ public class ATKTraining : MonoBehaviour
     public int score;
     public static ATKTraining instance;
     public bool gameActive;
-    private int gameTime;
+    public float gameTime = 15;
     public GameObject endScreen;
     public TextMeshProUGUI results;
     public int missed;
-    private int finalMissed;
     public bool trainingStarted;
+    public float targetLife = 1;
     // Start is called before the first frame update
     void Start()
     { 
@@ -32,8 +32,7 @@ public class ATKTraining : MonoBehaviour
         timerTxt.enabled = false;
         countdownTxt.enabled = false;
         scoreTxt.enabled = false;
-        //TODO: based on level of stat, change gametime, spawninterval, and target lifespan
-        gameTime = 30;
+       // BalanceGame();
     }
 
     // Update is called once per frame
@@ -52,6 +51,17 @@ public class ATKTraining : MonoBehaviour
         }
         
     }
+   /** 
+     void BalanceGame()
+    {
+        gameTime = (gameTime*4)/ (GM.instance.atkLVL*5);
+        targetLife = (GM.instance.atkLVL / targetLife);
+        spawninterval = (GM.instance.atkLVL / spawninterval);
+        Debug.Log("game time = " + gameTime);
+        Debug.Log("target lifespan = " + targetLife);
+        Debug.Log("spawn interval = " + spawninterval);
+    }
+   **/
 
     IEnumerator SpawnTargets()
     {
@@ -112,10 +122,10 @@ public class ATKTraining : MonoBehaviour
         if (trainingStarted)
         {
             GM.instance.IncreaseStat(exp, "attack");
-            Analytics.CustomEvent("attackTrainingComplete", new Dictionary<string, object>{
-                    { "hit", score },
-                    { "missed", missed },
-                    { "current level", GM.instance.atkLVL }
+            AnalyticsService.Instance.CustomData("attackTrainingComplete", new Dictionary<string, object>{
+                    { "rawScore", score },
+                    { "damage", missed },
+                    { "skillLevel", GM.instance.atkLVL }
                 }
             );
         }

@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using TMPro;
+using Unity.Services.Analytics;
+
 
 
 public class GM : MonoBehaviour
@@ -15,6 +19,7 @@ public class GM : MonoBehaviour
     public int energy;
     public Image energyBar;
     public float energyRechargeSpeed;
+    public TextMeshProUGUI moneyTxt;
     public int atkLVL;
     public int atkEXP;
     public int defLVL;
@@ -25,11 +30,15 @@ public class GM : MonoBehaviour
     public int flyEXP;
     public int levelCap = 50;
     private bool recharging;
-
+    public GUIStyle customStyle;
     private float healthFill;
+    public float targetLife;
+
+
     // Start is called before the first frame update
     void Awake()
     {
+        AnalyticsService.Instance.SetAnalyticsEnabled(true);
         if (instance != null)
         {
             Destroy(gameObject);
@@ -47,7 +56,7 @@ public class GM : MonoBehaviour
             NewGame();
         }
     }
-    void NewGame()
+    public void NewGame()
     {
         paused = false;
         energy = 100;
@@ -61,6 +70,11 @@ public class GM : MonoBehaviour
         spdLVL = 1;
         flyLVL = 1;
 
+    }
+    public void QuitGame()
+    {
+        Save();
+        Application.Quit();
     }
     private void Start()
     {
@@ -83,6 +97,7 @@ public class GM : MonoBehaviour
         energy = Mathf.Clamp(energy, 0, 100);
         healthFill = (float)energy / 100;
         energyBar.fillAmount = healthFill;
+        moneyTxt.text = "€" + money;
     }
     IEnumerator RenewEnergy()
     {
@@ -145,14 +160,6 @@ public class GM : MonoBehaviour
             paused = false;
         }
     }
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 100, 30), "Money: " + money);
-        GUI.Label(new Rect(500, 40, 300, 60), "Attack LVL: " + atkLVL + "\nAttack EXP: " + atkEXP );
-        GUI.Label(new Rect(500, 100, 300, 60), "Defense LVL: " + defLVL + "\nDefense EXP: " + defEXP);
-
-    }
-
     public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();

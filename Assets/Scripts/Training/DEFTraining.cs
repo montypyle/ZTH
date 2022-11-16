@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.Analytics;
+using Unity.Services.Analytics;
+
 
 public class DEFTraining : MonoBehaviour
 {
@@ -16,12 +17,13 @@ public class DEFTraining : MonoBehaviour
     public int score;
     public static DEFTraining instance;
     public bool gameActive;
-    private int gameTime;
+    public int gameTime = 15;
     public GameObject endScreen;
     public TextMeshProUGUI results;
     public int missed;
     private int finalMissed;
     public bool trainingStarted;
+    public Transform target;
 
 
     // Start is called before the first frame update
@@ -115,10 +117,10 @@ public class DEFTraining : MonoBehaviour
         if (trainingStarted)
         {
             GM.instance.IncreaseStat(exp, "defense");
-            Analytics.CustomEvent("defenseTrainingComplete", new Dictionary<string, object>{
-                { "hit", score },
-                { "missed", missed },
-                { "current level", GM.instance.defLVL }
+            AnalyticsService.Instance.CustomData("defenseTrainingComplete", new Dictionary<string, object>{
+                { "rawScore", score },
+                { "damage", missed },
+                { "skillLevel", GM.instance.defLVL }
 
             }
                 );

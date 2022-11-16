@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TargetCtrl : MonoBehaviour
 {
-    public float targetlife;
     private GameObject targetObj;
     // Start is called before the first frame update
     void Start()
@@ -25,9 +24,10 @@ public class TargetCtrl : MonoBehaviour
         ATKTraining.instance.score++;
         Destroy(targetObj);
     }
+    
     IEnumerator Lifespan()
     {
-        yield return new WaitForSeconds(targetlife);
+        yield return new WaitForSeconds(ATKTraining.instance.targetLife);
         if (ATKTraining.instance.gameActive)
         {
             ATKTraining.instance.missed++;
