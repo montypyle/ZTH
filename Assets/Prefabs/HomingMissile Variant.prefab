@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8676048804169447234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4543122431121319858, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: life
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543122431121319858, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: hasEyeline
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543122431121319858, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: timerIsRunning
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243215882965302085, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6894309920347460268, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_Name
+      value: HomingMissile Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7735457126601647344, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7735457126601647344, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7735457126601647344, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+--- !u!1 &2867110929957119470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6894309920347460268, guid: 94f16ba444ddf7649a2882596ca0c2e4, type: 3}
+  m_PrefabInstance: {fileID: 8676048804169447234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8944582510435749264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867110929957119470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691964f78addeae47bc40b56dd23ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 2
+  timerIsRunning: 0

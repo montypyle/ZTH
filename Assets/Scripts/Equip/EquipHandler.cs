@@ -8,7 +8,7 @@ public class EquipHandler : MonoBehaviour
 {
     public string type;
     public Sprite sprite;
-    public string name;
+    public string itemName;
     public bool selected;
     public bool obtained;
     public string statBuff;
@@ -24,7 +24,7 @@ public class EquipHandler : MonoBehaviour
         {
             img.sprite = sprite;
         }
-        name = gameObject.name;
+        itemName = gameObject.name;
 
     }
 

@@ -1,0 +1,1116 @@
+fileFormatVersion: 2
+guid: 7018a70219e210c45a190e2d3fae4423
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4676753690180385986
+    second: Classic_Helm
+  - first:
+      213: -1044363188472140523
+    second: Popular_Helm
+  - first:
+      213: 2130966347548278810
+    second: Space_Helm
+  - first:
+      213: -6465402648568551264
+    second: Rustic_Helm
+  - first:
+      213: 2110592848430909616
+    second: Occult_Glove
+  - first:
+      213: 5666710128690379210
+    second: Occult_Helm
+  - first:
+      213: -7595068725737321470
+    second: Natural_Helm
+  - first:
+      213: -4030115789944654473
+    second: Natural_Chest
+  - first:
+      213: 2902085903446133212
+    second: Classic_Chest
+  - first:
+      213: -4023901628721796097
+    second: Popular_Chest
+  - first:
+      213: -544711532167863493
+    second: Space_Chest
+  - first:
+      213: 3946842773539014009
+    second: Rustic_Glove
+  - first:
+      213: -6871501848868665217
+    second: Rustic_Chest
+  - first:
+      213: -567974074172191651
+    second: HiTech_Chest
+  - first:
+      213: 7372837315489934487
+    second: Occult_Boot
+  - first:
+      213: 2461914985962393379
+    second: Occult_Chest
+  - first:
+      213: -8700693871938813049
+    second: Occult_Cape
+  - first:
+      213: -6634407784784902097
+    second: Dramatic_Helm
+  - first:
+      213: -6488607671441063859
+    second: Classic_Glove
+  - first:
+      213: -2180678272375215569
+    second: Popular_Glove
+  - first:
+      213: -1427776472915092159
+    second: HiTech_Helm
+  - first:
+      213: -7607847634482031748
+    second: HiTech_Glove
+  - first:
+      213: 3030075656030211344
+    second: HiTech_Cape
+  - first:
+      213: -4848909601458748844
+    second: Popular_Cape
+  - first:
+      213: -778609907089020363
+    second: Dramatic_Chest
+  - first:
+      213: -2840271270294371828
+    second: Space_Glove
+  - first:
+      213: 4724099270450095658
+    second: HiTech_Boot
+  - first:
+      213: 8793458458287648197
+    second: Classic_Boot
+  - first:
+      213: 3844544578930041024
+    second: Popular_Boot
+  - first:
+      213: -8183373392061988165
+    second: Space_Boot
+  - first:
+      213: -2099327000432388726
+    second: Rustic_Boot
+  - first:
+      213: 1761295701416840433
+    second: Natural_Glove
+  - first:
+      213: -5997634839963973795
+    second: Dramatic_Glove
+  - first:
+      213: 1275598444478969145
+    second: Dramatic_Boot
+  - first:
+      213: -5561886783222998996
+    second: Classic_Cape
+  - first:
+      213: -6566948577320486824
+    second: Dramatic_Cape
+  - first:
+      213: -7421699405145777958
+    second: equip_atlas_38
+  - first:
+      213: 4131283942584367573
+    second: Rustic_Cape
+  - first:
+      213: -5072917821623908202
+    second: Natural_Cape
+  - first:
+      213: 75710716984282070
+    second: Space_Cape
+  - first:
+      213: 8096143601949187144
+    second: Natural_Boot
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Classic_Helm
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 200
+        height: 190
+      alignment: 9
+      pivot: {x: 0.65, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330dca1c45d81fb0800000000000000
+      internalID: -4676753690180385986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popular_Helm
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 892
+        width: 156
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51daf9e963da181f0800000000000000
+      internalID: -1044363188472140523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Helm
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 891
+        width: 157
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a104ded4a96b29d10800000000000000
+      internalID: 2130966347548278810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rustic_Helm
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 865
+        width: 256
+        height: 154
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a33adb864646a0800000000000000
+      internalID: -6465402648568551264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Occult_Glove
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 859
+        width: 81
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46238726, y: 0.5630342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8443463055a4d10800000000000000
+      internalID: 2110592848430909616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Occult_Helm
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 809
+        width: 191
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9b2b9a6d234ae40800000000000000
+      internalID: 5666710128690379210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natural_Helm
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 795
+        width: 226
+        height: 187
+      alignment: 9
+      pivot: {x: 0.55, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c8fbdfb35e89690800000000000000
+      internalID: -7595068725737321470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natural_Chest
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 801
+        width: 133
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775f7a0aa072218c0800000000000000
+      internalID: -4030115789944654473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classic_Chest
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 648
+        width: 140
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd94396d0c7464820800000000000000
+      internalID: 2902085903446133212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popular_Chest
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 648
+        width: 140
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbebe8c9ca3828c0800000000000000
+      internalID: -4023901628721796097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Chest
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 655
+        width: 144
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33631c5fbbc078f0800000000000000
+      internalID: -544711532167863493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rustic_Glove
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 660
+        width: 87
+        height: 134
+      alignment: 9
+      pivot: {x: 0.39494446, y: 0.5227361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9754c1d579006c630800000000000000
+      internalID: 3946842773539014009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rustic_Chest
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 670
+        width: 137
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f784eb8a97583a0a0800000000000000
+      internalID: -6871501848868665217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiTech_Chest
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 670
+        width: 137
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cc55bb6962e18f0800000000000000
+      internalID: -567974074172191651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Occult_Boot
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 653
+        width: 118
+        height: 133
+      alignment: 9
+      pivot: {x: 0.6846903, y: 0.38146743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ca588b974915660800000000000000
+      internalID: 7372837315489934487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Occult_Chest
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 649
+        width: 133
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fcf7dc2aa7a2220800000000000000
+      internalID: 2461914985962393379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Occult_Cape
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 402
+        width: 218
+        height: 296
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7834baf850de04780800000000000000
+      internalID: -8700693871938813049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dramatic_Helm
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 644
+        width: 125
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f284fc43549dde3a0800000000000000
+      internalID: -6634407784784902097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classic_Glove
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 521
+        width: 92
+        height: 109
+      alignment: 9
+      pivot: {x: 0.43311572, y: 0.58385223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4081e073b5d3f5a0800000000000000
+      internalID: -6488607671441063859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popular_Glove
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 529
+        width: 75
+        height: 109
+      alignment: 9
+      pivot: {x: 0.41, y: 0.5419261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa9ad3aacacb1e0800000000000000
+      internalID: -2180678272375215569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiTech_Helm
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 533
+        width: 150
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5c31dcd48f2ce0800000000000000
+      internalID: -1427776472915092159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiTech_Glove
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 528
+        width: 66
+        height: 98
+      alignment: 9
+      pivot: {x: 0.40767878, y: 0.51554406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73176172ee7b6690800000000000000
+      internalID: -7607847634482031748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiTech_Cape
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 315
+        width: 248
+        height: 297
+      alignment: 9
+      pivot: {x: 0.4, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d4d3051cdfc0a20800000000000000
+      internalID: 3030075656030211344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popular_Cape
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 393
+        width: 231
+        height: 194
+      alignment: 9
+      pivot: {x: 0.65, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520219786635bcb0800000000000000
+      internalID: -4848909601458748844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dramatic_Chest
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 463
+        width: 151
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aeb5d2a62d135f0800000000000000
+      internalID: -778609907089020363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Glove
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 502
+        width: 82
+        height: 119
+      alignment: 9
+      pivot: {x: 0.42569268, y: 0.58960676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c024b5cf3545598d0800000000000000
+      internalID: -2840271270294371828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiTech_Boot
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 364
+        width: 92
+        height: 140
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38785598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262cd2d14f5f8140800000000000000
+      internalID: 4724099270450095658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classic_Boot
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 357
+        width: 107
+        height: 142
+      alignment: 9
+      pivot: {x: 0.61204594, y: 0.4029713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda369c0e3a80a70800000000000000
+      internalID: 8793458458287648197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popular_Boot
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 366
+        width: 107
+        height: 115
+      alignment: 9
+      pivot: {x: 0.57491, y: 0.48444214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0674edce09a5530800000000000000
+      internalID: 3844544578930041024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Boot
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 366
+        width: 93
+        height: 120
+      alignment: 9
+      pivot: {x: 0.60399604, y: 0.45086974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb203cdd141de6e80800000000000000
+      internalID: -8183373392061988165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rustic_Boot
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 365
+        width: 92
+        height: 135
+      alignment: 9
+      pivot: {x: 0.67135787, y: 0.37880567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8557df3731bdd2e0800000000000000
+      internalID: -2099327000432388726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natural_Glove
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 233
+        width: 92
+        height: 134
+      alignment: 9
+      pivot: {x: 0.41721246, y: 0.5113678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc8f53db11617810800000000000000
+      internalID: 1761295701416840433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dramatic_Glove
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 330
+        width: 82
+        height: 119
+      alignment: 9
+      pivot: {x: 0.42569193, y: 0.5512039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57c07fc3ee14cca0800000000000000
+      internalID: -5997634839963973795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dramatic_Boot
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 335
+        width: 98
+        height: 110
+      alignment: 9
+      pivot: {x: 0.65613914, y: 0.47289208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935b53fd606d3b110800000000000000
+      internalID: 1275598444478969145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Classic_Cape
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 363
+        height: 318
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c289d05507530d2b0800000000000000
+      internalID: -5561886783222998996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dramatic_Cape
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 11
+        width: 219
+        height: 323
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8583e86ef038dd4a0800000000000000
+      internalID: -6566948577320486824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equip_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 294
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8de8e76b3d00990800000000000000
+      internalID: -7421699405145777958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rustic_Cape
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 321
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9221696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d934087bd4455930800000000000000
+      internalID: 4131283942584367573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natural_Cape
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 15
+        width: 260
+        height: 289
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698cb536e106999b0800000000000000
+      internalID: -5072917821623908202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Cape
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 4
+        width: 284
+        height: 268
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc987fe7afc0100800000000000000
+      internalID: 75710716984282070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Natural_Boot
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 86
+        width: 100
+        height: 114
+      alignment: 9
+      pivot: {x: 0.6450745, y: 0.46861133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9bb4f5b74b5070800000000000000
+      internalID: 8096143601949187144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

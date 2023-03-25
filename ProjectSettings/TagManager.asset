@@ -8,15 +8,28 @@ TagManager:
   - Wall
   - Hazard
   - Shield
+  - Enemy
+  - CinemachineTarget
+  - Obstacle
+  - Item
+  - Skin
+  - LegBase
+  - ArmBase
+  - WaistBase
+  - ChestBase
+  - FootBase
+  - Hair
+  - Eye
+  - UIButton
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interaction
   - Water
   - UI
-  - 
-  - 
+  - OverUI
+  - HeroRender
   - 
   - 
   - 
@@ -53,4 +66,7 @@ TagManager:
     locked: 0
   - name: Overlay
     uniqueID: 2994810919
+    locked: 0
+  - name: Character
+    uniqueID: 2885434351
     locked: 0

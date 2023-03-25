@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0ef0561dfd2f8934e84745a9433da399
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Komika Hand
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ad8046040adfc594d94ef030e4eeb03c, type: 3}
+  - {fileID: 12800000, guid: 7cb16b95ee6223f41bff628d620c23f4, type: 3}
+  - {fileID: 12800000, guid: c1fbcd05ee6a65546b0503a83ee16f64, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

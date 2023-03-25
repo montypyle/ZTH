@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 public class SM : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Awake()
     {
 
+    }
+    private void Start()
+    {
 
     }
 
@@ -20,7 +24,22 @@ public class SM : MonoBehaviour
     }
     public void Load(string scenename)
     {
-        SceneManager.LoadSceneAsync(scenename);
+        if(scenename == "Minigame 1")
+        {
+            if(GM.instance.energy - GM.instance.missionCost >= 0)
+            {
+                SceneManager.LoadSceneAsync(scenename);
+            }
+            else
+            {
+                GM.instance.EnergyWarning();
+            }
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync(scenename);
+
+        }
     }
 
     public void DebugLog(string debug)

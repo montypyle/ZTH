@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8074459576366271158}
   - component: {fileID: 4471988235784311061}
   - component: {fileID: 6401932338675015580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253647940514791061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d9c803b17ee8fa94ab0c5f46ed78b33a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,7 +99,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.28
+  m_Radius: 1.5
 --- !u!114 &6401932338675015580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,4 +112,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d87208a76b962746baf1d2421b41eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetlife: 1
+  source: {fileID: 4803022269752862394, guid: e94f4cac8a60664468260e1332201bd1, type: 3}

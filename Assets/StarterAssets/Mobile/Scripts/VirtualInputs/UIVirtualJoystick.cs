@@ -6,7 +6,8 @@ public class UIVirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandle
 {
     [System.Serializable]
     public class Event : UnityEvent<Vector2> { }
-    
+
+    public bool locked;
     [Header("Rect References")]
     public RectTransform containerRect;
     public RectTransform handleRect;
@@ -70,7 +71,10 @@ public class UIVirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandle
 
     private void OutputPointerEventValue(Vector2 pointerPosition)
     {
-        joystickOutputEvent.Invoke(pointerPosition);
+        if (!locked)
+        {
+            joystickOutputEvent.Invoke(pointerPosition);
+        }
     }
 
     private void UpdateHandleRectPosition(Vector2 newPosition)
